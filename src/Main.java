@@ -62,5 +62,15 @@ public class Main {
         int minutesInMonth = daysInMonth * hoursPerDay * minutesPerDay;
         int bottlesPerMonth = bottlesPerMinute * minutesInMonth;
         System.out.println("За месяц машина произвела бутылок " + bottlesPerMonth + " штук.");
+
+        System.out.println("Task 5!");
+        byte totalPaintCans = 120;
+        byte whitePerClass = 2;
+        byte brownPerClass = 4;
+        int paintCansPerClass = whitePerClass + brownPerClass;
+        int totalClasses = totalPaintCans / paintCansPerClass;
+        int totalWhiteCans = totalClasses * whitePerClass;
+        int totalBrownCans = totalClasses * brownPerClass;
+        System.out.println("В школе, где "+ totalClasses + " классов, нужно " + totalWhiteCans + " банок белой краски и " + totalBrownCans + " банок коричневой краски");
     }
 }
