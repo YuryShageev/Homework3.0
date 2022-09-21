@@ -42,5 +42,25 @@ public class Main {
         int totalStudents = lp + as + ea;
         int papersPerStudent = totalPaper / totalStudents;
         System.out.println("На каждого ученика рассчитано " + papersPerStudent + " листов бумаги");
+
+        System.out.println("Task 4!");
+        byte bottles = 16;
+        int bottlesPerMinute = bottles / 2;
+        int bottlesPer20Minutes = bottlesPerMinute * 20;
+        System.out.println("За 20 минут машина произвела бутылок " + bottlesPer20Minutes + " штук.");
+        byte day = 1;
+        int hoursPerDay = day * 24;
+        int minutesPerDay = hoursPerDay * 60;
+        int bottlesPerDay = bottlesPerMinute * minutesPerDay;
+        System.out.println("За сутки машина произвела бутылок " + bottlesPerDay + " штук.");
+        int threeDays = day * 3;
+        int hoursPer3Days = hoursPerDay * threeDays;
+        int minutesPer3Days = hoursPer3Days * minutesPerDay;
+        int bottlesPer3Days = bottlesPerMinute * minutesPer3Days;
+        System.out.println("За трое суток машина произвела бутылок " + bottlesPer3Days + " штук.");
+        int daysInMonth = day * 30;
+        int minutesInMonth = daysInMonth * hoursPerDay * minutesPerDay;
+        int bottlesPerMonth = bottlesPerMinute * minutesInMonth;
+        System.out.println("За месяц машина произвела бутылок " + bottlesPerMonth + " штук.");
     }
 }
