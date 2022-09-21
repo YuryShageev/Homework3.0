@@ -95,5 +95,8 @@ public class Main {
         int daysWithMaximumLoss = weightToLoseG / maximumDayLoss;
         System.out.println("Требуется " + daysWithMinimumLoss + " дней при минимальной потере");
         System.out.println("Требуется " + daysWithMaximumLoss + " дней при максимальной потере");
+
+        System.out.println("Task 8!");
+
     }
 }
