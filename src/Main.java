@@ -74,6 +74,16 @@ public class Main {
         System.out.println("В школе, где "+ totalClasses + " классов, нужно " + totalWhiteCans + " банок белой краски и " + totalBrownCans + " банок коричневой краски");
 
         System.out.println("Task 6!");
-
+        byte bananaQuantity = 5;
+        byte eachBananaWeight = 80;
+        byte milk100Weight = 105;
+        int milkQuantity = milk100Weight + milk100Weight;
+        byte iceCreamQuantity = 2;
+        byte eachIceCreamWeight = 100;
+        byte eggQuantity = 4;
+        byte eachEggWeight = 70;
+        float totalDishWeight = (bananaQuantity * eachBananaWeight) + milkQuantity + (iceCreamQuantity * eachIceCreamWeight) + (eggQuantity * eachEggWeight);
+        double totalDishWeightKg = totalDishWeight / 1000;
+        System.out.println("Общий вес этого спорт-завтрака " + totalDishWeight + " грамм, или " + totalDishWeightKg + " килограмм");
     }
 }
