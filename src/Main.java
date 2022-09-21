@@ -83,7 +83,7 @@ public class Main {
         byte eggQuantity = 4;
         byte eachEggWeight = 70;
         float totalDishWeight = (bananaQuantity * eachBananaWeight) + milkQuantity + (iceCreamQuantity * eachIceCreamWeight) + (eggQuantity * eachEggWeight);
-        double totalDishWeightKg = totalDishWeight / 1000;
+        float totalDishWeightKg = totalDishWeight / 1000;
         System.out.println("Общий вес этого спорт-завтрака " + totalDishWeight + " грамм, или " + totalDishWeightKg + " килограмм");
     }
 }
