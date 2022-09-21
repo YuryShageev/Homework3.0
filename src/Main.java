@@ -87,6 +87,13 @@ public class Main {
         System.out.println("Общий вес этого спорт-завтрака " + totalDishWeight + " грамм, или " + totalDishWeightKg + " килограмм");
 
         System.out.println("Task 7!");
-
+        byte weightToLoseKg = 7;
+        int weightToLoseG = weightToLoseKg * 1000;
+        short minimumDayLoss = 250;
+        short maximumDayLoss = 500;
+        int daysWithMinimumLoss = weightToLoseG / minimumDayLoss;
+        int daysWithMaximumLoss = weightToLoseG / maximumDayLoss;
+        System.out.println("Требуется " + daysWithMinimumLoss + " дней при минимальной потере");
+        System.out.println("Требуется " + daysWithMaximumLoss + " дней при максимальной потере");
     }
 }
