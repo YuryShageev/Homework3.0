@@ -34,5 +34,13 @@ public class Main {
         System.out.println(d1);
         System.out.println(boo1);
 
+        System.out.println("Task 3!");
+        byte lp = 23;
+        byte as = 27;
+        byte ea = 30;
+        short totalPaper = 480;
+        int totalStudents = lp + as + ea;
+        int papersPerStudent = totalPaper / totalStudents;
+        System.out.println("На каждого ученика рассчитано " + papersPerStudent + " листов бумаги");
     }
 }
