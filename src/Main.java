@@ -72,5 +72,7 @@ public class Main {
         int totalWhiteCans = totalClasses * whitePerClass;
         int totalBrownCans = totalClasses * brownPerClass;
         System.out.println("В школе, где "+ totalClasses + " классов, нужно " + totalWhiteCans + " банок белой краски и " + totalBrownCans + " банок коричневой краски");
+
+
     }
 }
