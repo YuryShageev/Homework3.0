@@ -85,5 +85,8 @@ public class Main {
         float totalDishWeight = (bananaQuantity * eachBananaWeight) + milkQuantity + (iceCreamQuantity * eachIceCreamWeight) + (eggQuantity * eachEggWeight);
         float totalDishWeightKg = totalDishWeight / 1000;
         System.out.println("Общий вес этого спорт-завтрака " + totalDishWeight + " грамм, или " + totalDishWeightKg + " килограмм");
+
+        System.out.println("Task 7!");
+
     }
 }
