@@ -62,5 +62,57 @@ public class Main {
         int minutesInMonth = daysInMonth * hoursPerDay * minutesPerDay;
         int bottlesPerMonth = bottlesPerMinute * minutesInMonth;
         System.out.println("За месяц машина произвела бутылок " + bottlesPerMonth + " штук.");
+
+        System.out.println("Task 5!");
+        byte totalPaintCans = 120;
+        byte whitePerClass = 2;
+        byte brownPerClass = 4;
+        int paintCansPerClass = whitePerClass + brownPerClass;
+        int totalClasses = totalPaintCans / paintCansPerClass;
+        int totalWhiteCans = totalClasses * whitePerClass;
+        int totalBrownCans = totalClasses * brownPerClass;
+        System.out.println("В школе, где "+ totalClasses + " классов, нужно " + totalWhiteCans + " банок белой краски и " + totalBrownCans + " банок коричневой краски");
+
+        System.out.println("Task 6!");
+        byte bananaQuantity = 5;
+        byte eachBananaWeight = 80;
+        byte milk100Weight = 105;
+        int milkQuantity = milk100Weight + milk100Weight;
+        byte iceCreamQuantity = 2;
+        byte eachIceCreamWeight = 100;
+        byte eggQuantity = 4;
+        byte eachEggWeight = 70;
+        float totalDishWeight = (bananaQuantity * eachBananaWeight) + milkQuantity + (iceCreamQuantity * eachIceCreamWeight) + (eggQuantity * eachEggWeight);
+        float totalDishWeightKg = totalDishWeight / 1000;
+        System.out.println("Общий вес этого спорт-завтрака " + totalDishWeight + " грамм, или " + totalDishWeightKg + " килограмм");
+
+        System.out.println("Task 7!");
+        byte weightToLoseKg = 7;
+        int weightToLoseG = weightToLoseKg * 1000;
+        short minimumDayLoss = 250;
+        short maximumDayLoss = 500;
+        int daysWithMinimumLoss = weightToLoseG / minimumDayLoss;
+        int daysWithMaximumLoss = weightToLoseG / maximumDayLoss;
+        System.out.println("Требуется " + daysWithMinimumLoss + " дней при минимальной потере");
+        System.out.println("Требуется " + daysWithMaximumLoss + " дней при максимальной потере");
+
+        System.out.println("Task 8!");
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        byte monthsInYear = 12;
+        float increaseBy = 0.1f;
+        float mashaIncreaseMonth = Masha * increaseBy;
+        float mashaIncreaseYear = mashaIncreaseMonth * monthsInYear;
+        float mashaSalaryMonth = Masha + mashaIncreaseMonth;
+        System.out.println("Маша теперь получает " + mashaSalaryMonth + " рублей. Годовой доход вырос на " + mashaIncreaseYear + " рублей");
+        float denisIncreaseMonth = Denis * increaseBy;
+        float denisIncreaseYear = denisIncreaseMonth * monthsInYear;
+        float denisSalaryMonth = Denis + denisIncreaseMonth;
+        System.out.println("Денис теперь получает " + denisSalaryMonth + " рублей. Годовой доход вырос на " + denisIncreaseYear + " рублей");
+        float kristinaIncreaseMonth = Kristina * increaseBy;
+        float kristinaIncreaseYear = kristinaIncreaseMonth * monthsInYear;
+        float kristinaSalaryMonth = Kristina + kristinaIncreaseMonth;
+        System.out.println("Кристина теперь получает " + kristinaSalaryMonth + " рублей. Годовой доход вырос на " + kristinaIncreaseYear + " рублей");
     }
 }
