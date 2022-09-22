@@ -97,6 +97,22 @@ public class Main {
         System.out.println("Требуется " + daysWithMaximumLoss + " дней при максимальной потере");
 
         System.out.println("Task 8!");
-
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        byte monthsInYear = 12;
+        float increaseBy = 0.1f;
+        float mashaIncreaseMonth = Masha * increaseBy;
+        float mashaIncreaseYear = mashaIncreaseMonth * monthsInYear;
+        float mashaSalaryMonth = Masha + mashaIncreaseMonth;
+        System.out.println("Маша теперь получает " + mashaSalaryMonth + " рублей. Годовой доход вырос на " + mashaIncreaseYear + " рублей");
+        float denisIncreaseMonth = Denis * increaseBy;
+        float denisIncreaseYear = denisIncreaseMonth * monthsInYear;
+        float denisSalaryMonth = Denis + denisIncreaseMonth;
+        System.out.println("Денис теперь получает " + denisSalaryMonth + " рублей. Годовой доход вырос на " + denisIncreaseYear + " рублей");
+        float kristinaIncreaseMonth = Kristina * increaseBy;
+        float kristinaIncreaseYear = kristinaIncreaseMonth * monthsInYear;
+        float kristinaSalaryMonth = Kristina + kristinaIncreaseMonth;
+        System.out.println("Кристина теперь получает " + kristinaSalaryMonth + " рублей. Годовой доход вырос на " + kristinaIncreaseYear + " рублей");
     }
 }
